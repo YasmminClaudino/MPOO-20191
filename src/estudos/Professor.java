@@ -1,7 +1,7 @@
 package estudos;
 import java.util.Date;
 
-public class Professor extends Pessoa {
+public class Professor {
 	private Date adimissao;
 
 	public Date getAdimissao() {

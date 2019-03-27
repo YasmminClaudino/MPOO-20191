@@ -1,6 +1,6 @@
 package estudos;
 
-public class Aluno extends Pessoa{
+public class Aluno{
 		private int anoEntrada;
 		private int periodoEntrada;
 		
