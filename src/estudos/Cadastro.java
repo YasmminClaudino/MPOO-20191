@@ -23,13 +23,21 @@ public class Cadastro {
 	}
 	
 	public void imprimeCadastro() {
-		if(aluno != null) {
+		if(aluno !=null && professor != null) {
+			System.out.println("Aluno e Professor: " );
+			System.out.println();
+			System.out.println("Ano entrada: " + aluno.anoEntrada());
+			System.out.println("Periodo Entrada: " + aluno.periodoEntrada());
+			System.out.println("Data de Admissão: " + professor.getAdimissao());
+			
+		}
+		else if(aluno != null) {
 			System.out.println("Aluno: " );
 			System.out.println();
 			System.out.println("Ano entrada: " + aluno.anoEntrada());
 			System.out.println("Periodo Entrada: " + aluno.periodoEntrada());
 		} 
-		if(professor != null) {
+		else if(professor != null) {
 			System.out.println("Professor: ");
 			System.out.println();
 			System.out.println("Data de Admissão: " + professor.getAdimissao());
